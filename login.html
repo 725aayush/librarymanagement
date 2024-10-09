@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            background-image: url('lms.png');
+        }
+        .header {
+            background: rgba(255, 255, 255, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 90px;
+            backdrop-filter: blur(10px);
+        }
+        input[type="text"], input[type="password"], input[type="email"], input[type="submit"] {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="submit"] {
+            background-color: #11e9d7;
+            color: white;
+            cursor: pointer;
+            margin-left: 5%;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color: brown;">Library Management system</h1>
+    </div>
+    <div class="container">
+        <form id="login-form" onsubmit="loginUser(); return false;">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+<!-- 
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required> -->
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <a href="home.html"><input type="submit" value="login"></a>
+        </form>
+    </div>
+
+    <script>
+        function loginUser() {
+            // You can add your JavaScript code here to handle the login process.
+            // For a simplified example, you can use the alert function to display a message.
+            alert("Login Successful!");
+        }
+    </script>
+</body>
+</html>

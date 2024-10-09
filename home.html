@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library management system</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+    
+    header h1 {
+        margin: 0;
+        display: inline;
+    }
+    
+    .register-btn {
+        float: right;
+        padding: 8px 15px;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .login-btn {
+        float: right;
+        padding: 8px 15px;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    nav {
+        background-color: #eee;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: #333;
+    }
+    
+    nav a:hover {
+        background-color: #ddd;
+    }
+    
+    .library-image {
+        height: 450px;
+        width: 100%; 
+        background-color: bisque;
+    }
+
+    .contain {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+.column h2 {
+    margin-left: 18px;
+}
+
+.column p {
+    line-height: 1.6;
+    margin-left: 25px;
+}
+
+.read-more-btn {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.read-more-btn:hover {
+    background-color: #0056b3;
+}
+
+.book-container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book {
+    width: 18%;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book h3 {
+    margin: 0;
+    color: #333;
+}
+
+.book p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-link {
+    margin: 0 10px;
+}
+
+.icon-link img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+}
+
+</style>    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>STATIC LIBRARY</h1>
+            <a href="register.html" class="register-btn">Register</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <img src="one.jpg" alt="library-image" class="library-image">
+
+    <div class="contain">
+
+        <div class="column">
+            <img src="two.png" alt="Image">
+        </div>
+
+        <div class="column">
+            <h2>About The Library</h2>
+            <p>
+                A digital library, also called an online library, an internet library, a digital repository, a library without walls, or a digital collection, is an online database of digital objects that can include text, still images, audio, video, digital documents, or other digital media formats or a library accessible through the internet. Objects can consist of digitized content like print or photographs, as well as originally produced digital content like word processor files or social media posts. In addition to storing content, digital libraries provide means for organizing, searching, and retrieving the content contained in the collection.
+            </p>
+            <a href="aboutus.html"><button class="read-more-btn">Read More</button></a>
+        </div>
+
+    </div>
+    <h1 style="margin-top: 100px; margin-left: 610px;">Trending books</h1>
+    <div class="book-container">
+        <div class="book">
+            <img src="book1.jpg" alt="Book 1">
+            <h3>control your mind and master your feeling</h3>
+            <p>Eric Roberston</p>
+        </div>
+
+        <div class="book">
+            <img src="book2.jpg" alt="Book 2">
+            <h3>the secret language of birthdays</h3>
+            <p>Gary Goldschneider</p>
+        </div>
+
+        <div class="book">
+            <img src="book3.jpg" alt="Book 3">
+            <h3>A Game of Thrones</h3>
+            <p>George R. R. Martin</p>
+        </div>
+
+        <div class="book">
+            <img src="book4.jpg" alt="Book 4">
+            <h3>Elon Musk</h3>
+            <p>Ashlee Vance</p>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com" class="icon-link" id="instagram"><img src="instagram.png"alt="Instagram" style="height: 40px;"></a>
+                <a href="https://www.facebook.com" class="icon-link" id="facebook"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/" class="icon-link" id="twitter"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/" class="icon-link" id="linkedin"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="mailto:your.email@gmail.com" class="icon-link" id="gmail"><img src="gmail.png" alt="Gmail"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

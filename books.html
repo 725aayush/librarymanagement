@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+    <style>
+        body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+    
+    header h1 {
+        margin: 0;
+        display: inline;
+    }
+    
+    .register-btn {
+        float: right;
+        padding: 8px 15px;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+    
+    .login-btn {
+        float: right;
+        padding: 8px 15px;
+        background-color: #fff;
+        color: #333;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+
+    nav {
+        background-color: #eee;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    nav li {
+        float: left;
+    }
+    
+    nav a {
+        display: block;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: #333;
+    }
+    
+    nav a:hover {
+        background-color: #ddd;
+    }
+
+    .shelf{
+            background-color: rgba(0, 0, 0, 0.082);
+            border-radius: 5px;
+            width: 90%;
+            margin-left: 5%;
+        }
+
+        .stack{
+            display: flex;
+            padding: 2px;
+            flex-flow: row wrap;
+            
+        }
+
+        .book{
+            background-color: rgba(0, 0, 0, 0.396);
+            border-radius: 10px;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .book-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 25px;
+            width: 90%;
+        }
+
+        footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-link {
+    margin: 0 10px;
+}
+
+.icon-link img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>STATIC LIBRARY</h1>
+            <a href="register.html" class="register-btn">Register</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="shelf">
+        <div class="heading">
+            <h1 style="text-align: center;">Trending Books</h1>
+        </div>
+        <div class="stack">
+                <div class="book">
+                    <img src="book1.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book2.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book3.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book4.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div>
+                
+                <div class="book">
+                    <img src="book27.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book16.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book20.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div>
+                
+                <div class="book">
+                    <img src="book9.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book14.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div>
+                
+                <div class="book">
+                    <img src="book21.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book18.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book7.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="shelf">
+        <div class="heading">
+            <h1 style="text-align: center;">Academic</h1>
+        </div>
+        <div class="stack">
+                <div class="book">
+                    <img src="book10.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book11.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book12.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book14.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div>
+                
+                <div class="book">
+                    <img src="book13.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book15.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="shelf">
+        <div class="heading">
+            <h1 style="text-align: center;">Romance</h1>
+        </div>
+        <div class="stack">
+                <div class="book">
+                    <img src="book16.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book17.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book18.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book19.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div>
+                
+                <div class="book">
+                    <img src="book20.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book21.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="shelf">
+        <div class="heading">
+            <h1 style="text-align: center;">Comics</h1>
+        </div>
+        <div class="stack">
+                <div class="book">
+                    <img src="book22.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book23.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book24.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book25.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div>
+                
+                <div class="book">
+                    <img src="book26.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book27.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="shelf">
+        <div class="heading">
+            <h1 style="text-align: center;">Biography</h1>
+        </div>
+        <div class="stack">
+                <div class="book">
+                    <img src="book4.jpg
+                    " alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book5.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book6.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+                <div class="book">
+                    <img src="book7.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button> 
+                </div>
+                
+                <div class="book">
+                    <img src="book8.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+                
+                <div class="book">
+                    <img src="book9.jpg" alt="book1" class="book-img">
+                    <h3 style="text-align: center;">Book Name</h3>
+                    <p style="text-align: center;">Author</p>
+                    <button style="margin-left: 60px; margin-bottom: 10px">Borrow</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com" class="icon-link" id="instagram"><img src="instagram.png"alt="Instagram" style="height: 40px;"></a>
+                <a href="https://www.facebook.com" class="icon-link" id="facebook"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com/" class="icon-link" id="twitter"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/" class="icon-link" id="linkedin"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="mailto:your.email@gmail.com" class="icon-link" id="gmail"><img src="gmail.png" alt="Gmail"></a></div>
+        </div>
+    </footer>
+
+</body>
+</html>
